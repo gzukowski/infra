@@ -64,3 +64,9 @@ sudo ufw status verbose
 ```bash
 sudo ss -tulpn
 ```
+
+## 8. Secret generating
+
+```
+openssl rand -base64 24
+```
